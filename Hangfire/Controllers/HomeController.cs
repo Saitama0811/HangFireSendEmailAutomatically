@@ -31,7 +31,7 @@ namespace Hangfire.Controllers
         {
             try
             {
-                var _email = "alert@xceedance.com";
+                var _email = "from which email address you want to send email";
                 var _epass = ConfigurationManager.AppSettings["EmailPassword"];
                 var _dispName = "Test Email";
                 MailMessage myMessage = new MailMessage();
